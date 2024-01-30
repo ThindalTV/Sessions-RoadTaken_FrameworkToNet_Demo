@@ -1,0 +1,15 @@
+﻿@using RoadTakenDemoTemplate.Models
+
+@model DemoModel
+@{
+}
+
+<h2>MVC NET8</h2>
+<form method="post">
+    <input type="number" id="num1" name="num1" value="@Model.FirstNumber" />
+    +
+    <input type="number" id="num2" name="num2" value="@Model.SecondNumber" />
+    =
+    @Model.Result<br />
+    <input type="submit" value="Calculate" />
+</form>
