@@ -19,13 +19,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoadTakenDemo-Demo", "3 - D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoadTakenDemo-Finished", "4 - Finished\RoadTakenDemo-Finished\RoadTakenDemo-Finished.csproj", "{644365BE-1940-4C52-9E5A-2A28D8044760}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoadTakenDemo-Finished-Abstractions", "4 - Finished\RoadTakenDemo-Finished-Abstractions\RoadTakenDemo-Finished-Abstractions.csproj", "{8A2CECF2-BBDC-4398-8AC5-A898367A3213}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoadTakenDemo-Finished-Abstractions", "4 - Finished\RoadTakenDemo-Finished-Abstractions\RoadTakenDemo-Finished-Abstractions.csproj", "{8A2CECF2-BBDC-4398-8AC5-A898367A3213}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoadTakenDemo-Finished-Implementation", "4 - Finished\RoadTakenDemo-Finished\RoadTakenDemo-Finished-Implementation\RoadTakenDemo-Finished-Implementation.csproj", "{01FE18E6-8E04-4621-AC61-CEB1E55A5610}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoadTakenDemo-Finished-Implementation", "4 - Finished\RoadTakenDemo-Finished\RoadTakenDemo-Finished-Implementation\RoadTakenDemo-Finished-Implementation.csproj", "{01FE18E6-8E04-4621-AC61-CEB1E55A5610}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoadTakenDemo-Framework", "4 - Finished\RoadTakenDemo-Framework\RoadTakenDemo-Framework.csproj", "{FA67AB0F-1F56-4D94-AF23-D83D7F6A542E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoadTakenDemo-Finished-Framework", "4 - Finished\RoadTakenDemo-Framework\RoadTakenDemo-Finished-Framework.csproj", "{FA67AB0F-1F56-4D94-AF23-D83D7F6A542E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoadTakenDemo-Finished-NET8", "RoadTakenDemo-Finished-NET8\RoadTakenDemo-Finished-NET8.csproj", "{BDFB1A37-C801-4E69-BD02-FEF1F3D30B49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoadTakenDemo-Finished-NET8", "RoadTakenDemo-Finished-NET8\RoadTakenDemo-Finished-NET8.csproj", "{BDFB1A37-C801-4E69-BD02-FEF1F3D30B49}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
