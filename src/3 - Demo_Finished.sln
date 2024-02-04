@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34511.98
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoadTakenDemo-Finished", "4 - Demo Finished\RoadTakenDemo-Finished\RoadTakenDemo-Finished.csproj", "{644365BE-1940-4C52-9E5A-2A28D8044760}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoadTakenDemo-Finished-Abstractions", "4 - Demo Finished\RoadTakenDemo-Finished-Abstractions\RoadTakenDemo-Finished-Abstractions.csproj", "{E74EA4F6-ADB4-4918-A240-886021AB4CD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoadTakenDemo-Finished-Framework", "4 - Demo Finished\RoadTakenDemo-Framework\RoadTakenDemo-Finished-Framework.csproj", "{FA67AB0F-1F56-4D94-AF23-D83D7F6A542E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoadTakenDemo-Demo-Implementation", "4 - Demo Finished\RoadTakenDemo-Finished-Implementation\RoadTakenDemo-Demo-Implementation.csproj", "{EFB9E361-68BF-4D0F-8ABA-2590974A9810}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoadTakenDemo-Finished-NET8", "4 - Demo Finished\RoadTakenDemo-Finished-NET8\RoadTakenDemo-Finished-NET8.csproj", "{07E6C5D2-9557-4BE2-BAEC-55B382DB6FCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{644365BE-1940-4C52-9E5A-2A28D8044760}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{644365BE-1940-4C52-9E5A-2A28D8044760}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{644365BE-1940-4C52-9E5A-2A28D8044760}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{644365BE-1940-4C52-9E5A-2A28D8044760}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E74EA4F6-ADB4-4918-A240-886021AB4CD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E74EA4F6-ADB4-4918-A240-886021AB4CD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E74EA4F6-ADB4-4918-A240-886021AB4CD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E74EA4F6-ADB4-4918-A240-886021AB4CD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA67AB0F-1F56-4D94-AF23-D83D7F6A542E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA67AB0F-1F56-4D94-AF23-D83D7F6A542E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA67AB0F-1F56-4D94-AF23-D83D7F6A542E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA67AB0F-1F56-4D94-AF23-D83D7F6A542E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFB9E361-68BF-4D0F-8ABA-2590974A9810}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFB9E361-68BF-4D0F-8ABA-2590974A9810}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFB9E361-68BF-4D0F-8ABA-2590974A9810}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFB9E361-68BF-4D0F-8ABA-2590974A9810}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07E6C5D2-9557-4BE2-BAEC-55B382DB6FCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07E6C5D2-9557-4BE2-BAEC-55B382DB6FCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07E6C5D2-9557-4BE2-BAEC-55B382DB6FCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07E6C5D2-9557-4BE2-BAEC-55B382DB6FCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF5C8B6B-5DBA-4937-AE92-FFF877D15417}
+	EndGlobalSection
+EndGlobal
