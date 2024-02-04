@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <LangVersion>12</LangVersion>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>RoadTakenDemo_Finished_Abstractions</RootNamespace>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>RoadTakenDemo_Demo_Implementation</RootNamespace>
+	  <LangVersion>12</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RoadTakenDemo-Demo-Abstractions\RoadTakenDemo-Abstractions.csproj" />
+  </ItemGroup>
+</Project>

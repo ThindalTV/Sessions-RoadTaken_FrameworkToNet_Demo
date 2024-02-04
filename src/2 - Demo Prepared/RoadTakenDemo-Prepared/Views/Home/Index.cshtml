@@ -1,0 +1,18 @@
+﻿@using RoadTakenDemoTemplate.Prepared.Abstractions.Models
+
+@model DemoModel
+@{
+    
+    ViewBag.Title = "Index";
+}
+
+<h2>MVC</h2>
+<form action="Demo" method="post">
+    <input type="number" id="num1" name="num1" value="@Model.FirstNumber" />
+    +
+    <input type="number" id="num2" name="num2" value="@Model.SecondNumber" />
+    =
+    @Model.Result<br />
+    <input type="submit" value="Calculate" />
+</form>
+
