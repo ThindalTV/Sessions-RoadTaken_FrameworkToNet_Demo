@@ -47,6 +47,7 @@
   <ItemGroup>
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
+    <Content Include="DemoOrig.aspx" />
     <Content Include="Demo.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
@@ -59,6 +60,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DemoOrig.aspx.cs">
+      <DependentUpon>DemoOrig.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DemoOrig.aspx.designer.cs">
+      <DependentUpon>DemoOrig.aspx</DependentUpon>
     </Compile>
     <Compile Include="Demo.aspx.cs">
       <DependentUpon>Demo.aspx</DependentUpon>

@@ -1,23 +1,15 @@
-﻿using Ninject;
-using Ninject.Web;
-using System;
+﻿using System;
 using System.Configuration;
+using System.Web.UI;
 
-using RoadTakenDemo.Abstractions;
 
 namespace RoadTakenDemo
 {
-    public partial class Demo : PageBase
+    public partial class DemoOrig : Page
     {
-        [Inject]
-        public IDemoFacade Facade {  get; set; }
-
-        [Inject]
-        public Config Config { get; set; }
-
         protected void Page_Load(object sender, EventArgs e)
         {
-            litFirstNumber.Text = Config.FirstNumber.ToString();
+            litFirstNumber.Text = ConfigurationManager.AppSettings["FirstNumber"];
             if (!IsPostBack)
             {
                 txtSecondNumber.Text = "0";
@@ -28,8 +20,8 @@ namespace RoadTakenDemo
         {
             var intFirstNumber = Int32.Parse(litFirstNumber.Text);
             var intSecondNumber = Int32.Parse(txtSecondNumber.Text);
-            var model = Facade.AddNumbers(intFirstNumber, intSecondNumber);
-            litResult.Text = model.Result.ToString();
+            var intResult = intFirstNumber + intSecondNumber;
+            litResult.Text = intResult.ToString();
         }
     }
 }
